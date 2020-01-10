@@ -158,8 +158,8 @@ add(x){
 }
 void main(){
   var f = add(12);
-  print('$f');
-  f();
+  print('$f');  //Closure: () => void
+  f();  //value in add Fun : 12
 }
 
 
@@ -174,6 +174,7 @@ void main(){
   show(true);
   show('Akshay');
   show('\u0041');
+  
   (a) {
     print('This is an anonymous Funtion $a');
   }(12);
@@ -186,13 +187,4 @@ show(var x){
 }
 
 ------------------------------------------*/
-
-
-
-
-
-
-
-
-
 

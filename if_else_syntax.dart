@@ -61,4 +61,23 @@ void main(){
 
 and more...
 
+
+----------------------------------------------------------------------------------------------------------
+  void main(){
+  var test ;
+  var name = test ?? 'Dummy Name';    // if_this_null ?? take_this
+                                      // if_this_!null_(take_this) ?? this'll_not_execute
+  print(name);    // Prints 'Dummy Name' as an output bcoz test variable is null
+}
+
+------------------------------------------------
+
+void main(){
+
+  var x = 5>4 ? true : false;       // ternary operator & this is short form of if_else(condition)
+  print(x);               o/p => true
+}
+
 */
+  
+  

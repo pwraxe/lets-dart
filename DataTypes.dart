@@ -117,9 +117,9 @@ void main(List<String> arguments) {
   String s = "Akshay" + ' Pawar : $i';
   bool b = true;
   List<int> list  = [1,2,3,6,5,4,7,8,9];
-  List l = [1,1.2,'string',true,list];
+  List l = [1,1.2,'string',true,list];        // list can contain other list
   Map m = {1 : 'A',2 : 'K',3 : 'S',4 : 'H',5 : 'A',6 : 'Y'};
-  Map m2 = {m:'A'};
+  Map m2 = {m:'A'};   // map can contain other map
   var symb = '\u0041';    // Unicode for Character 'A'
   // above all variable shows warning as 'ignore: omit_local_variable_types'  recommended to use *var* instead of DataType
 

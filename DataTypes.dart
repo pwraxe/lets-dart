@@ -102,3 +102,34 @@ void main(List<String> arguments) {
   };
   print('${nameAge[21]}');
 }
+
+
+
+
+
+
+===========================================Practice===============================================
+  
+  
+  void main(){
+  int i = 10;
+  double d = 3.14;
+  String s = "Akshay" + ' Pawar : $i';
+  bool b = true;
+  List<int> list  = [1,2,3,6,5,4,7,8,9];
+  List l = [1,1.2,'string',true,list];
+  Map m = {1 : 'A',2 : 'K',3 : 'S',4 : 'H',5 : 'A',6 : 'Y'};
+  Map m2 = {m:'A'};
+  var symb = '\u0041';    // Unicode for Character 'A'
+  // above all variable shows warning as 'ignore: omit_local_variable_types'  recommended to use *var* instead of DataType
+
+
+  print(s);     // o/p -> Akshay Pawar : 10
+  print(l);     // o/p -> [1, 1.2, string, true, [1, 2, 3, 6, 54, 7, 8, 9]]
+  print('');    // o/p -> \n
+  print(m);     // o/p -> {1: A, 2: K, 3: S, 4: H, 5: A, 6: Y}
+  print('');    // o/p -> \n
+  print(m2);    // o/p -> {{1: A, 2: K, 3: S, 4: H, 5: A, 6: Y}: A}
+  print(symb);  // o/p -> A
+  
+}
